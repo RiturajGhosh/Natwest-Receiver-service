@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    password: ALcoder
+    username: root
+    url: jdbc:mysql://localhost:3306/cargo_portal
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
